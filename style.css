@@ -15,3 +15,34 @@ body{
     border-radius: 10px;
     padding: 30px;
 }
+.app h1 {
+    font-size: 25px;
+    color: darkgreen;
+    font-weight: 600 ;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.thequiz{
+    padding: 20px 0;
+}
+.thequiz h2{
+    font-size: 18px;
+    color: darkgreen;
+    font-weight: 600;
+}
+.btn{
+    background: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: black;
+    color: white;
+}
