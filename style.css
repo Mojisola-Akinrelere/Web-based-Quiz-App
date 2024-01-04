@@ -16,11 +16,18 @@ body{
     padding: 30px;
 }
 .app h1 {
-    font-size: 25px;
+    /* font-size: 25px; */
     color: darkgreen;
-    font-weight: 600 ;
+    display: flex;
+    align-items: center;
+    /* font-weight: 600 ; */
     border-bottom: 1px solid black;
-    padding-bottom: 30px;
+    padding-bottom: 30px; */
+}
+
+.app h1 img{
+    width: 35px;
+    margin-left: 10px;
 }
 .thequiz{
     padding: 20px 0;
