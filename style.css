@@ -7,6 +7,13 @@
 body{
     background: darkgreen ;
 }
+#timer {
+    color: darkgreen;
+    font-size: 30px;
+    margin-bottom: 20px;
+    /* top: 10px;
+    right: 10px; */
+}
 .app{
     background: white;
     width: 90%;
@@ -37,31 +44,46 @@ body{
     color: darkgreen;
     font-weight: 600;
 }
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 .btn{
     background: white;
     color: black;
     font-weight: 500;
+    font-size: 17px;
     width: 100%;
     border: 1px solid black;
     padding: 10px;
     margin: 10px 0;
     text-align: left;
-    border-radius: 4px;
+    border-radius: 10px 15px 15px 10px;
     cursor: pointer;
 }
-.btn:hover{
+.btn:hover:not([disabled]){
     background: black;
     color: white;
 }
-#nextbtn{
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn{
     background: darkgreen;
     color: white;
     font-weight: 500;
+    font-size: 20px;
     width: 150px;
     border: 0;
     padding: 10px;
     margin: 20px auto 0;
-    border-radius: 4px;
+    border-radius: 10px 15px 15px 10px;
     cursor: pointer ;
     display: none;
+}
+.correct{
+    background: green;
+}
+.incorrect{
+    background: red;
 }
