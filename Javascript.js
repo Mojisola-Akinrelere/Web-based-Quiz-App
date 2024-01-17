@@ -26,6 +26,7 @@ const questions = [
       { text: "Heart conditions", correct: false },
       { text: "Old Age", correct: false },
     ],
+    
   },
   {
     question: "Which Disney character famously leaves a glass slipper behind at a royal ball?",
@@ -55,12 +56,12 @@ const questions = [
     ],
   },
   {
-    question: "Which of these is not a social media platform?",
+    question: "Who is the most decorated player in Football history?",
     answers: [
-      { text: "Instagram", correct: false },
-      { text: "Twitter", correct: false },
-      { text: "VLC", correct: true },
-      { text: "Youtube", correct: false },
+      { text: "C. Ronaldo", correct: false },
+      { text: "Dani Alves", correct: false },
+      { text: "Lionel Messi", correct: true },
+      { text: "Pele", correct: false },
     ],
   },
   {
