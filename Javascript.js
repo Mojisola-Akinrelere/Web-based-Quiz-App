@@ -121,7 +121,7 @@ const timerElement = document.getElementById("timer");
 let currentQuestionIndex = 0;
 let score = 0;
 let timer;
-let timeLeft = 60; // Initial time in seconds
+let timeLeft = 30; // Initial time in seconds
 
 // Messages for different quiz outcomes
 const congratulationsMessage = "Congratulations! You did a great job!";
@@ -131,7 +131,7 @@ const notGoodMessage = "Oops! Better luck next time.";
 function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
-  timeLeft = 60; // Reset the timer
+  timeLeft = 30; // Reset the timer
   nextButton.innerHTML = "Next";
   showQuestion();
   startTimer();
